@@ -5,6 +5,7 @@ import java.time.Month;
 
 public class GestionEtudiants {
     public static void main(String[] args) {
+
         Etudiant lolo = new Etudiant(LocalDate.of(1998, Month.NOVEMBER, 12), "Adrien", "Autef", "13 rue Bernard Courtois", "adrienautefdu66@gmail.com");
         Etudiant toto = new Etudiant(LocalDate.of(1998, Month.NOVEMBER, 12), "Adrien", "Autef", "13 rue Bernard Courtois", "adrienautefdu66@gmail.com");
         System.out.println(lolo.toString());
